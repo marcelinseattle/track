@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Language Tracker!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to the language tracker!</h1>
+        <h2>Let's find your path to success at Epicodus...</h2>
+      </div>
+      <form id="question">
+      <div class="form-group">
+        <label for="person">Please enter your name:</label>
+        <input id="person" class="form-control" type="text">
+      </div>
+      <div class="math">
+        <label for="math">Now, let's check your math level; can you give us the result of 2 + 2?</label>
+        <input id="math" class="form-control" type="text">
+      </div>
+      <h4>Where are you at, in Seattle or Portland?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="city" value="seattle">Seattle
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="city" value="portland">Portland
+        </label>
+      </div>
+      <h4>Do you want to work in front-end or back-end development?</h4>
+      <p>To learn more about back end/front end click <a href="https://en.wikipedia.org/wiki/Front_and_back_ends">here...</a></p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="type" value="front-end">Front-end
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="type" value="back-end">Back-end
+        </label>
+      </div>
+      <h4>Are you a designer or a problem sover?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="language" value="javascript">Javascript
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="language" value="css">CSS
+        </label>
+      </div>
+      <h4>Do you want to work for a large company or a start-up shop?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="company" value="large">Large
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="company" value="start-up">Start-up
+        </label>
+      </div>
+  <!-- button -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  <!-- button -->
+      <div class="results">
+        <h2><span class="person"> </span> here is your best option...</h2>
+        <div class="ruby">
+          <h2>Ruby</h2>
+          <img src="img/ruby.jpeg" alt="Picture of Ruby">
+          <p>Ruby is so beatiful that hurts in the eyes!</p>
+        </div>
+        <div class="php">
+          <h2>PHP</h2>
+          <img src="img/php.jpeg" alt="Picture of PHP">
+          <p>So are you a Ninja?</p>
+        </div>
+        <div class="script">
+          <h2>Javascript</h2>
+          <img src="img/script.jpeg" alt="Picture of JavaScript">
+          <p>Javascript is the duct tape of the internet!</p>
+        </div>
+        <div class="css">
+          <h2>CSS</h2>
+          <img src="img/css.jpeg" alt="Picture of CSS">
+          <p>Code in "Style!"</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
